@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sealprot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Seal encode/decode helpers for prot payloads in pipelines.",
+  "bin": {
+    "sealprot": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sealprot.git"
+  },
+  "homepage": "https://theworker02.github.io/sealprot/",
+  "keywords": [
+    "seal",
+    "prot",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
